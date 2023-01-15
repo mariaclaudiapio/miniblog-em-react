@@ -41,7 +41,7 @@ form {
 label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1px;
+  margin-bottom: 1em;
 }
 
 label span {
@@ -71,6 +71,7 @@ textarea {
   border: none;
   padding: 10px 15px;
   font-size: 1em;
+  margin-top: 1em;
 }
 
 .btn.btn-dark {
@@ -101,7 +102,7 @@ textarea {
 }
 
 button[disabled] {
-  background-color: #aaaaaa;
+  background-color: #aaaaaa;  
 }
 
 .container .error {
